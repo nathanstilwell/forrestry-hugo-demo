@@ -1,7 +1,6 @@
 ---
 title: "The Herse"
 date: 2019-01-03T16:33:53-05:00
-draft: true
 ---
 
     There was an old man in a hearse,

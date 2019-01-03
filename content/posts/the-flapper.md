@@ -1,7 +1,6 @@
 ---
 title: "The Flapper"
 date: 2019-01-03T16:19:11-05:00
-draft: true
 ---
 
     A nifty young flapper named Jane
