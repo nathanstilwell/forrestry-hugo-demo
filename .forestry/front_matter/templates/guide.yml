@@ -3,3 +3,5 @@ label: Guide
 hide_body: false
 is_partial: false
 fields: []
+pages:
+- content/flow-features.md
