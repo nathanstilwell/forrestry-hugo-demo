@@ -6,9 +6,20 @@
     <description>Recent content on The Showdown</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Thu, 03 Jan 2019 22:44:39 +0000</lastBuildDate>
     
 	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Flow Features</title>
+      <link>http://example.org/flow-features/</link>
+      <pubDate>Thu, 03 Jan 2019 22:44:39 +0000</pubDate>
+      
+      <guid>http://example.org/flow-features/</guid>
+      <description>Flow Features Flow allows organizations to create features whose values are determined by the country or exprience of their customers. The values can either be a boolean (true or false) or a text string. Features can be created in Console by following the Features link under Organization Settings.
+Dynamically insert text based on the country or experience Using string features in Flow implementors can easily associate text with a country or experience.</description>
+    </item>
     
   </channel>
 </rss>

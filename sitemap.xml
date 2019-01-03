@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://example.org/flow-features/</loc>
+    <lastmod>2019-01-03T22:44:39+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://example.org/categories/</loc>
     <priority>0</priority>
   </url>
@@ -14,6 +19,7 @@
   
   <url>
     <loc>http://example.org/</loc>
+    <lastmod>2019-01-03T22:44:39+00:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+		<title>
+				Flow Features &middot; The Showdown
+		</title>
+	
+		
+  		<link rel="stylesheet" href="/css/style.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
+	
+		
+		<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+	
+		
+		<link href="" rel="alternate" type="application/rss+xml" title="The Showdown" />
+	</head>
+	
+    <body>
+        		<nav class="nav">
+			<div class="nav-container">
+				<a href="/">
+					<h2 class="nav-title">The Showdown</h2>
+				</a>
+				<ul>
+    <li><a href="/about">About</a></li>
+    <li><a href="/">Posts</a></li>
+</ul>
+			</div>
+		</nav>
+
+        
+
+<main>
+	<div class="post">
+		<div class="post-info">
+    <span>Written by</span>
+        
+        <br>
+        <span>on&nbsp;</span><time datetime="2019-01-03 22:44:39 &#43;0000 UTC">January 3, 2019</time>
+</div>
+		<h1 class="post-title">Flow Features</h1>
+<div class="post-line"></div>
+
+		
+
+		
+
+<h1 id="flow-features">Flow Features</h1>
+
+<p>Flow allows organizations to create features whose values are determined by the country or exprience of their customers. The values can either be a boolean (true or false) or a text string. Features can be created in <a href="https://console.flow.io">Console</a> by following the <strong>Features</strong> link under <strong>Organization Settings</strong>.</p>
+
+<h2 id="dynamically-insert-text-based-on-the-country-or-experience">Dynamically insert text based on the country or experience</h2>
+
+<p>Using string features in Flow implementors can easily associate text with a country or experience. Flow.js provides a specific html attribute for this purpose, <code>flow-string-feature</code>. The value of this attribute should be the key of a Flow string feature and upon localization the innerText of this element will be assigned the value feature based on the query for that user.</p>
+
+<p>Let&rsquo;s look at an example. Given the following feature,</p>
+
+<pre><code>{
+  &quot;name&quot;: &quot;Shipping Messaging&quot;,
+  &quot;key&quot;: &quot;shipping-message&quot;,
+  &quot;status&quot;: &quot;active&quot;,
+  &quot;type&quot;: &quot;string&quot;,
+  &quot;rules&quot;: [
+    {
+      &quot;query&quot;: &quot;experience.key:canada&quot;,
+      &quot;value&quot;: &quot;FREE SHIPPING ON ORDERS OVER $100 CAD&quot;
+    },
+    {
+      &quot;query&quot;: &quot;experience.key:eurozone&quot;,
+      &quot;value&quot;: &quot;FREE SHIPPING ON ORDERS OVER €75&quot;
+    },
+    {
+      &quot;query&quot;: &quot;experience.key:china&quot;,
+      &quot;value&quot;: &quot;FREE SHIPPING ON ORDERS OVER 888元&quot;
+    },
+    {
+      &quot;query&quot;: &quot;experience.key: world&quot;,
+      &quot;value&quot;: &quot;Subscribe for 15% off your first order.&quot;
+    }
+  ]
+}
+
+</code></pre>
+
+<p>and the the following markup,</p>
+
+<pre><code class="language-html">  &lt;span flow-string-feature=&quot;shipping-message&quot;&gt;&lt;/span&gt;
+</code></pre>
+
+<p>The <code>innerText</code> of the span will be replaced with the text that corresponds to the experience of the user. So if a user is visiting from France, the markup will be rendered as</p>
+
+<pre><code class="language-html">  &lt;span flow-string-feature=&quot;shipping-message&quot;&gt;FREE SHIPPING ON ORDERS OVER €75&lt;/span&gt;
+</code></pre>
+
+
+		
+	</div>
+
+	<div class="pagination">
+
+		<a href="#" class="top">Top</a>
+	</div>
+</main>
+
+
+        		<footer>
+			<span>
+			&copy; <time datetime="2019-01-03 22:49:45.632225371 &#43;0000 UTC m=&#43;0.043179380">2019</time> . Made with <a href='https://gohugo.io'>Hugo</a> using the <a href='https://github.com/EmielH/tale-hugo/'>Tale</a> theme.
+			</span>
+		</footer>
+
+    </body>
+</html>
