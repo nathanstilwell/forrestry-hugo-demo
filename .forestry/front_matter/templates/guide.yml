@@ -10,3 +10,4 @@ fields:
   default: Guide
 pages:
 - content/flow-features.md
+- content/country-picker.md
