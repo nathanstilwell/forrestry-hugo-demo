@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>The Showdown</title>
-    <link>https://nathanstilwell.com/</link>
-    <description>Recent content on The Showdown</description>
+    <title>Guides on The Showdown</title>
+    <link>https://nathanstilwell.com/guides/</link>
+    <description>Recent content in Guides on The Showdown</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 08 Jan 2019 17:19:36 +0000</lastBuildDate>
     
-	<atom:link href="https://nathanstilwell.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://nathanstilwell.com/guides/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,17 +20,6 @@
       <description>The GNL Tao Te Ching Copyright &amp;copy; 1992, 1993, 1994, 1995 Peter A. Merel.
 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</description>
-    </item>
-    
-    <item>
-      <title>Theme Sample</title>
-      <link>https://nathanstilwell.com/sample/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nathanstilwell.com/sample/</guid>
-      <description>h1 h2 h3 h4 h5 h6 Paragraph
-code block   unordered list of things   ordered list of other things   blockquote
- Link</description>
     </item>
     
   </channel>
