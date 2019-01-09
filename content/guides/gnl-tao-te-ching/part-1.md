@@ -1,8 +1,3 @@
----
-title: Part 1
-date: 2019-01-08 17:33:16 +0000
-
----
 # Part 1
 
 ## 一 The Way
@@ -64,7 +59,7 @@ function (people = {}, action) {
   if (!value.includes('knowledge') && !value.includes('desire')) {
     people.canAct = false;
   }
-  
+
   if(!action) {
     Harmony = true;
   }

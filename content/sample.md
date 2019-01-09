@@ -28,5 +28,5 @@ Paragraph
 
 [Link](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link)
 
-![Image](assets/img/ladies-of-the-evening.jpg)
+![Image](../img/ladies-of-the-evening.jpg)
 

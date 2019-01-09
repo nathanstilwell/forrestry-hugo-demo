@@ -2,10 +2,6 @@
   <meta charset="utf-8">
   <title>{{ .Title }}</title>
 
-  {{- $inServerMode	:= .Site.IsServer }}
-  {{- $cssTarget := "css/style.css" }}
-  {{- $productionCssTarget := (printf "%s/%s" .Site.BaseURL $cssTarget) }}
-  {{- $cssOptions := cond ($inServerMode) (dict "targetPath" $cssTarget "enableSourceMap" true) (dict "targetPath" $productionCssTarget "outputStyle" "compressed") }}
-  {{- $style := resources.Get "scss/dracula.scss" | toCSS $cssOptions }}
-  <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+  {{- $style := resources.Get "scss/dracula.scss" | toCSS }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}">
 </head>

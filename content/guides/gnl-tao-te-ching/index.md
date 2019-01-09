@@ -1,7 +1,6 @@
 ---
 title: Index
 date: 2019-01-08 17:19:36 +0000
-
 ---
 # The GNL Tao Te Ching
 
@@ -27,6 +26,6 @@ This work is not a translation, but an interpolation.  It does not represent the
 
 Even an original text, translated as faithfully as possible, might remain inaccessible to the modern reader unable to place it within its original context. The intention of this work is to construct a document that closely corresponds with the best modern translations of Lao Tse, but which is blunt, easy and useful to read within a modern context.
 
-## [Part 1](https://nathanstilwell.com/the-gnl-tao-te-ching/#part1)
+## [Part 1](part-1)
 
-## [Part 2](https://nathanstilwell.com/the-gnl-tao-te-ching/#part2)
+## [Part 2](part-2)
