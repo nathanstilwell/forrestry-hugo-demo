@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Guides on The Showdown</title>
-    <link>https://nathanstilwell.com/guides/</link>
+    <link>https://nathanstilwell.com/forrestry-hugo-demo/guides/</link>
     <description>Recent content in Guides on The Showdown</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 08 Jan 2019 17:19:36 +0000</lastBuildDate>
     
-	<atom:link href="https://nathanstilwell.com/guides/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://nathanstilwell.com/forrestry-hugo-demo/guides/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Index</title>
-      <link>https://nathanstilwell.com/guides/gnl-tao-te-ching/</link>
+      <link>https://nathanstilwell.com/forrestry-hugo-demo/guides/gnl-tao-te-ching/</link>
       <pubDate>Tue, 08 Jan 2019 17:19:36 +0000</pubDate>
       
-      <guid>https://nathanstilwell.com/guides/gnl-tao-te-ching/</guid>
+      <guid>https://nathanstilwell.com/forrestry-hugo-demo/guides/gnl-tao-te-ching/</guid>
       <description>The GNL Tao Te Ching Copyright &amp;copy; 1992, 1993, 1994, 1995 Peter A. Merel.
 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</description>

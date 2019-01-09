@@ -3,34 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://nathanstilwell.com/guides/gnl-tao-te-ching/</loc>
+    <loc>https://nathanstilwell.com/forrestry-hugo-demo/guides/gnl-tao-te-ching/</loc>
     <lastmod>2019-01-08T17:19:36+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nathanstilwell.com/categories/</loc>
+    <loc>https://nathanstilwell.com/forrestry-hugo-demo/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://nathanstilwell.com/guides/</loc>
-    <lastmod>2019-01-08T17:19:36+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nathanstilwell.com/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nathanstilwell.com/</loc>
+    <loc>https://nathanstilwell.com/forrestry-hugo-demo/guides/</loc>
     <lastmod>2019-01-08T17:19:36+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://nathanstilwell.com/sample/</loc>
+    <loc>https://nathanstilwell.com/forrestry-hugo-demo/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nathanstilwell.com/forrestry-hugo-demo/</loc>
+    <lastmod>2019-01-08T17:19:36+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nathanstilwell.com/forrestry-hugo-demo/sample/</loc>
   </url>
   
 </urlset>
