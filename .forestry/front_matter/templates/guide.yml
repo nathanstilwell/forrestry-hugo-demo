@@ -8,6 +8,3 @@ fields:
   label: Title
   description: Title of the guide
   default: Guide
-pages:
-- content/flow-features.md
-- content/country-picker.md
