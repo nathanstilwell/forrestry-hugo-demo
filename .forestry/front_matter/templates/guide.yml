@@ -8,3 +8,5 @@ fields:
   label: Title
   description: Title of the guide
   default: Guide
+pages:
+- content/GNL Tao Te Ching/index.md
